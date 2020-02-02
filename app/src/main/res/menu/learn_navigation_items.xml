@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/vlogid"
+        android:icon="@drawable/vlog"
+        android:title="Vlog" />
+    <item
+        android:id="@+id/blogid"
+        android:icon="@drawable/blog"
+        android:title="Blog" />
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "388144094741",
+    "firebase_url": "https://smart-farmer-20.firebaseio.com",
+    "project_id": "smart-farmer-20",
+    "storage_bucket": "smart-farmer-20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388144094741:android:c3fcf40401d06a4736781c",
+        "android_client_info": {
+          "package_name": "com.example.smartfarmer20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388144094741-o3j3g0gcdcjfie5uehlr4io975i13o17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartfarmer20",
+            "certificate_hash": "8d67605c4b2194eacb6c81c8567a27c847b7afe5"
+          }
+        },
+        {
+          "client_id": "388144094741-v2f6o8eg6c66lu9nnc64j9k1b4vpm2io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASoS7yZp0w1n8F5TrXCvcK-qDsmOUnjN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388144094741-v2f6o8eg6c66lu9nnc64j9k1b4vpm2io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

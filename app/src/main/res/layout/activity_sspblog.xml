@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor"
+    tools:context=".SSPblogActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/PaddyHarvestProcess"
+                android:background="@color/transparent"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/rice">
+                </ImageView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Paddy harvest process"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#0C0C0C">
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#0A0A0A"></View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/RicecultivatioTechnology"
+                android:orientation="horizontal"
+                android:background="@color/transparent"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/rice">
+                </ImageView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Rice cultivation technology"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#0C0C0C">
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#0A0A0A"></View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/modifiedMatnurseryrice"
+                android:orientation="horizontal"
+                android:background="@color/transparent"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/rice">
+                </ImageView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Modified mat nursery for rice"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#0C0C0C">
+                </TextView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#0A0A0A"></View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vegeSoil"
+                android:orientation="horizontal"
+                android:background="@color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/soil">
+                </ImageView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Prepare garden for vegetables"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#0C0C0C">
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#0A0A0A"></View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SeedsForHome"
+                android:orientation="horizontal"
+                android:background="@color/transparent"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/soil">
+                </ImageView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Soil plotting for garden"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#0C0C0C">
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#0A0A0A"></View>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SoilPlott"
+                android:orientation="horizontal"
+                android:background="@color/transparent"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/beans">
+                </ImageView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Seeds for home gardening"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#0C0C0C">
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#0A0A0A"></View>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/SaveVegeSeeds"
+                android:orientation="horizontal"
+                android:background="@color/transparent"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/beans">
+                </ImageView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Vegetable seeds preservation"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="#0C0C0C">
+                </TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#0A0A0A"></View>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

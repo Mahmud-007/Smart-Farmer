@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:background="@color/black_overlay">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/profilepic"
+        app:civ_border_width="4dp"
+        android:src="@drawable/farmer"
+        android:elevation="6dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Mahmudur Rahman"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="mahmud6799@gmail.com"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>
